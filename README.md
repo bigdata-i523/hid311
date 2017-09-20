@@ -8,9 +8,9 @@
 
 ```
 owner:
-    hid: 000
-    name: Gregor von Laszewski
-    url: https://github.com/bigdata-i523/sample-hid000
+    hid: 311
+    name: Durbin, Matthew
+    url: https://github.com/bigdata-i523/hid311
 ```
 
 # Paper 1
