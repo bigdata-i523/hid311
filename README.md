@@ -18,15 +18,13 @@ owner:
 ```
 paper1:
    author: 
-   - Gregor von Laszewski
-   - Fugang Wang
+   - Matthew Durbin
    hid:
-   - 000
-   - 001
-   title: This is my paper about xyz
-   abstract: This paper showcases this and that and the other
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
-   type: latex
+   - hid311
+   title: Big Data and Healthcare 
+   abstract: This paper discusses the current healthcare crisis in the United Stated, highlighting Big Data solutuons. 
+   url: https://github.com/bigdata-i523/hid311/paper1/paper1.pdf
+   type: Word
    status: in progress
    chapter: TBD
 ```
@@ -36,11 +34,11 @@ paper1:
 ```
 paper2:
    author: 
-   - Gregor von Laszewski
+   - Matthew Durbin
    hid:
-   - 000
-   title: This is my paper about the other abc
-   abstract: This paper showcases tis and that and the other in regards to abc
+   - hid311
+   title: Big Data and Land and Wildlife Managment
+   abstract: This paper discusses the environmental impact of exanding human populations on our environment, highlighting Big Data solutions.   
    url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
    type: word
    status: in progress
@@ -61,7 +59,7 @@ paper2:
    - 000
    title: Benchmarking a BigData Docker deployment
    abstract: This paper showcases tis and that and the other 
-   url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
+   url: https://github.com/bigdata-i523/hid311/project/report.pdf
    type: latex
    status: in progress
 ```
