@@ -22,11 +22,13 @@ paper1:
    hid:
    - hid311
    title: Big Data and Healthcare 
-   abstract: This paper discusses the current healthcare crisis in the United Stated, highlighting Big Data solutuons. 
-   url: https://github.com/bigdata-i523/hid311/paper1/paper1.pdf
+   abstract: >
+       This paper discusses the current healthcare crisis in the United
+       Stated, highlighting Big Data solutuons.
+   url: https://github.com/bigdata-i523/hid311/paper1/report.pdf
    type: Word
    status: in progress
-   chapter: TBD
+   chapter: Health
 ```
    
 # Paper 2
@@ -38,10 +40,13 @@ paper2:
    hid:
    - hid311
    title: Big Data and Land and Wildlife Managment
-   abstract: This paper discusses the environmental impact of exanding human populations on our environment, highlighting Big Data solutions.   
+   abstract: >
+       This paper discusses the environmental impact of exanding human
+       populations on our environment, highlighting Big Data solutions.
    url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
    type: word
    status: in progress
+   chapter: Environment
 ```
 
 # Project 
