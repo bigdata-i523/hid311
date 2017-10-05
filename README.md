@@ -44,7 +44,7 @@ paper2:
        This paper discusses the environmental impact of exanding human
        populations on our environment, highlighting Big Data solutions.
    url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
-   type: word
+   type: latex
    status: in progress
    chapter: Environment
 ```
