@@ -23,11 +23,10 @@ paper1:
    - 311
    title: Big Data and Healthcare 
    abstract: >
-       This paper discusses the current healthcare crisis in the United
-       Stated, highlighting Big Data solutuons.
+       The United States' healthcare system is in crisis.  The cost is far higher than all other nations, and is exponentially increasing.  In addition, for all of this spendig, measured health outcomes are far lower than most other nations. Big Data driven technology solutions may help solve the healthcare crisis.
    url: https://github.com/bigdata-i523/hid311/paper1/report.pdf
    type: word
-   status: in progress
+   status: 100%
    chapter: Health
 ```
    
