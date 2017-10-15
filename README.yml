@@ -4,13 +4,12 @@ owner:
     name: Durbin, Matthew
     url: https://github.com/bigdata-i523/hid311
 paper1:
-    abstract: 'The United States'' healthcare system is in crisis.  The cost is far
+    abstract: >
+        The United States healthcare system is in crisis.  The cost is far
         higher than all other nations, and is exponentially increasing.  In addition,
         for all of this spendig, measured health outcomes are far lower than most
         other nations. Big Data driven technology solutions may help solve the healthcare
         crisis.
-
-        '
     author:
         - Matthew Durbin
     chapter: Health
