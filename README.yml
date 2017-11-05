@@ -20,6 +20,7 @@ paper1:
     type: word
     url: https://github.com/bigdata-i523/hid311/paper1/report.pdf
 paper2:
+    review: Nov 6 2017
     abstract: This paper showcases tis and that and the other
     author:
         - Gregor von Laszewski
