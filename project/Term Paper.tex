@@ -1,0 +1,432 @@
+\documentclass[sigconf]{acmart}
+
+
+\begin{document}
+\title{Big Data in Genomics and Medicine}
+
+
+\author{Matthew Durbin, MD FAAP}
+\orcid{1234-5678-9012}
+\affiliation{%
+  \institution{Indiana University School of Medicine Department of Pediatrics, Division of Neonatology Riley Hospital for Children}
+  \streetaddress{699 Riley Hospital Drive}
+  \city{Indianapolis} 
+  \state{Indiana} 
+  \postcode{ 46202 }
+}
+\email{mddurbin@iu.edu}
+
+% The default list of authors is too long for headers}
+\renewcommand{\shortauthors}{M. Durbin}
+
+
+
+\keywords{i523{Big Data,genomics, genetics, species reintroduction, environment, conservation}}
+
+
+\begin{abstract}
+The entirety of the human genome was sequenced in 2003, ushering in a new era of molecular biology, genetics and medicine.  Since that time, technologies have advanced significantly, and next generation sequencing allows increasingly rapid and affordable sequencing of the enitre human genome.  Beyond the human genome, we can also sequence the entire RNA transcriptome, proteome, and metabalome.  We can compare these entities in health and disease, and across populations.  These new technologies produce massive datasets.  Big Data applications and analytics allow interpretation and utilization of these data sets.  However, analyzing and interpreting these datasets lags behind sequencing technology, as the rate limiting step. Still these technologies hold great potential for advancing medicine and human health.  Combining this omics data with the electronic health record, wearable technology, pharmaceuticals and procedures, moves us towards personalized, precision, medicine.     
+\end{abstract}
+
+\maketitle
+
+
+
+
+\section{INTRODUCTION}
+\subsection{The Current State}
+    The current state of healthcare system in the United States is often
+described as a crisis.  The term comes with good reason, as spending
+accounts for 17-18\% of GDP, dwarfing other nations, and is
+exponentially rising at an unsustainable rate.  For all of our
+spending, we have poorer health than most developed and many
+developing nations.  The healthcare industry is behind in technology,
+with recent adoption of an electronic medical record, and prior
+reliance on paper charting.  Communication is most often by decades
+old technology including phone or fax.  Internet communication between
+healthcare providers, and with patients, is a recent novelty.  We have
+to poorest health, including obesity due to poor diet, lack of
+exercise, and substance abuse.  We pay more for pharmaceuticals than
+any other country, and most pharmaceutical budget goes to marketing as
+opposed to research and development.  To determine a familial or genetic risk for disease we mostly rely on patient interview.  
+Big Data has major potential to impact health.  Massive data sets
+related to human health are compiled by insurance companies,
+pharmaceutical companies, public health institutions and research
+institutions.  Big data will soon have a huge impact on improving the
+health, but there is a long road ahead.  \cite{fox6} Healthcare is
+making strides and big data collection is visible everywhere.  The
+electronic medical record EMR is close to universal and is improving
+constantly.  Medical resources are accessible around the world through
+smartphones, making medical libraries obsolete.  Wearable technology and fitness
+tracking apps, nutrition apps are improving personal health.  One of the biggest potential impacts to health comes with the advances in next generation sequencing and genomics. These new technologies allow us to determine genetic disease risk, determine prognosis, and predict response to pharmacology and other treatment, all by measuring the genetic code.  the most powerful application will be to combine  genomic data with the data generated from the EMR, wearable technology, model systems, etc. to develop personalized medicine strategies.     
+
+\subsection{The Genetic Code}
+For centuries taking a thorough family health history has been a mainstay of medical care, as we have known much disease is heritable.  Previously the medical provider merely noted ailments that ran in families and maintained vigilance in subsequent generations.  All of that changed in 1953 when James Watson and Francis Crick reported the molecular structure of Deoxyribonucleaic acid, or DNA.  DNA is is a relatively simple structure is made up of four nucleotides, adenine, guanine, cytosine and uracil on a carbohydrate background. Different triplicate combinations of these four nucleotides, code for 20 amino acids, and these 20 amino acids make up every protien in all living things.  This relative simple system is called the genetic code.  Much like the 0's and 1's in computer code, giving rise to the complexity of the internet, the genetic code gives rise to the complexity of all living things.  Each organism has a unique genetic code, and this molecular blueprint is utilized  to create their protein, carbohydrate, lipid structure.  Furthermore this DNA code is replicated, blended through reproduction, and passed to future generations.This genetic code is often interrupted in diseased such as cancer.  Differences in the genetic code lead to differences in disease susceptibility, and treatment response.    The human genome refers to humans over 3 billion nucleotides.  We have the ability to sequence the human genome, or determine the order of these nucleotide bases. 
+
+\subsection{The Human Genome}
+    The first human genome was sequenced in 2003\cite{collins2003human}.  This colossal global
+effort took over 10 years and thousands of scientists working at great
+expense.  In the end, a private and public group collectively
+sequenced the first genome.  Initially, the technology was extremely
+expensive and took great deal of time.  Through technological
+advancements including sequencing cores and big data, the cost of the
+genome has plummeted.  The 1000-dollar genome project is an attempt to
+make sequencing more affordable \cite{fox6}.  We are a long way away form
+being able to utilize the genome to deliver care.  Bioinformatics
+expertise has lagged behind sequencing technology.  Groups still do not agree on
+a standard way to process the information.  Still this technology
+improves rapidly, and recently a group published 24-hour genome
+sequencing for intended us in clinical decision making. Soon it may be
+a reality for physicians to utilize genomic information, whether about
+drug susceptibility, or prognosis, to guide medical care.  Here we review the methods to asses genetic changes.  We discuss issues that present with each method.  
+
+\section{	Genome Analysis}
+
+\subsection{	The Human Genome}
+
+
+\subsection{Chromosome Analysis}
+Historical mainstays to asses changes in the human genome include a method known as a karyotype analysis.  A karyotype visualizes the 23 chromosomes that contain our genetic information.    Aneuploidy is duplication of a chromosome.  Trisomy 21 is a well known syndrome characterized by duplication of the 21st chromosome.  Duplication or deletion of all other chromosomes is not compatible with life. However, portions of chromosomes can be duplicated or deleted, giving rise to well known syndromes.  Karyotype analysis is capable of visualizing large deletions and duplication in chromosomes, generally greater than 10Mb. Chromosome analysis has been largely surpassed by newer technologies.  Given established use and accessibility, it may have a clinical role in rapidly confirming a suspected aneuploidy.  
+
+\subsection{Genome Wide Association Studies}
+Historically research has focused on aneuploidy and syndromes representing large duplication or deletion of genetic material, or on single gene mutations leading to disease.  However pathogenesis likely involves multiple common and rare single nucleotide variants (Single nucleotide variation) in parallel leading to most disease.  Genome Wide Association Studies  emerged to study common variants on large scale, and studies have showed multiple susceptibility loci8.  However,  Genome Wide Association Studies failed to identify all forms of genetic disease. 
+
+\subsection{Copy Number Variation}
+A large part of the human genome consists of repetitive sequence, including both long and short repeated segments.  There are distinct regions that vary in the number of repeats between individuals, and this variation leads to phenotypic differences between these individuals.  This variation is referred to as copy number variation (Copy Number Variation).   It is thought that up to up to 10\% of the genome consists of Copy Number Variation.  Most Copy Number Variation is inherited but it can also occur de-novo.  Copy Number Variation is increasingly understood as contributing to disease, where varying amounts, or doses, of a particular gene and therefore protein lead to disease.   
+
+\subsection{Flourescent In Situ Hybridization}
+Fluorescent In Situ Hybridization utilizes florescent labeled probes to identify portions of DNA which match the probe sites. In this way the chromosomal material can be visualized.   Fluorescent In Situ Hybridization can identify chromosomal duplication and deletions up to 2MB.  This is helpful, to identify large duplication's and deletions leading to disease.  However we know even single nucleate changes lead to disease. Therefore Fluorescent In Situ Hybridization has been replaced by other technologies.      
+
+\subsection{Chromosomal Microarray}
+Chromosomal microarray is the baseline genetic testing for individuals with disease. Chromosomal Microarray is a technology that detects the presence or absence of patient DNA by measuring hybridization of patient sample to small segments of DNA attached to a surface.  Chromosomal Microarray detects deletions and duplications of chromosomal material much smaller than FISH and karyotype.  As technology improves, Chromosomal Microarray is able to detect increasingly small changes down to, but excluding, Single nucleotide variation.  As many common diseases are due to Single nucleotide variation, sequencing is often necessary.   
+
+\subsection{Targeted Gene or Gene Panel Sequencing}
+Disease is often due to Single nucleotide variation necessitating sequencing for diagnosis.  Targeted sequencing is commercially available to detect Single nucleotide variation in a specific gene, or an entire panel of  genes, often depending on the disease.  Gene panels are available for particular syndromes. Commercial panels utilize both traditional sanger sequencing and NGS technology.  Targeted sequencing often provides better coverage of specific genes than does Whole Exome Sequencing. This targeted sequencing circumvents the significant burden of analyzing thousands of variants of unknown significance, a problem inherent to Whole Exome Sequencing, but misses variants in genes outside of the panel, or in novel genes.
+
+\section{NEXT GENERATION SEQUENCING}
+
+\subsection{Whole Exome Sequencing}
+With advancements in technology, exome sequencing is approaching the affordability and efficiency of targeted gene panel sequencing.  Whole exome sequencing involves sequencing the entire coding region, or exome, of the genome.  This consists of around 20,000 genes and over 30 million nucleotides.  The exome, though massive, consists of only 1\% of the total genomic DNA.  Most genetic diseases involve alteration of this coding exome.  Sequencing only 1\% of the genomic material is a fraction of the time, cost, and burden of analysis, compared with Whole Genome Sequencing. Due to errors in Whole Exome Sequencing, a portion, (up to 1\%), of the coding exome is missed.   Coverage varies by gene and by region, with particular genes of interest, such as the HRAS gene implicated in Costello Syndrome, difficult to capture by Whole Exome Sequencing at all. Copy Number Variation, insertions, and deletions are also difficult to detect. Targeted sequencing is often advantageous, but Whole Exome Sequencing is improving and is increasingly accessible to clinicians.  
+
+\subsection{Whole Genome Sequencing}
+Despite the massive amount of information produced in Whole Exome Sequencing, it represents only 1\% of the total genome.  Transcription enhancers and promoters, often involved in disease pathogenesis, are outside of the exon and missed by Whole Exome Sequencing.   In addition, Whole Genome Sequencing better captures Copy Number Variation, insertions and deletions, frequently involved in disease. Whole Genome Sequencing adds significantly to expense, data storage, analysis, and the burden of determining variant significance.  For this reason Whole Genome Sequencing is predominantly used in the research setting, but this is changing.  In 2012 a group used rapid Whole Genome Sequencing in the newborn ICU to identifying disease causing pathologic variants.  The process, from sample collection to automated bioinformatics analysis, was complete within in 48 hours.  This rapid turnaround was intended as a model for utilization of Whole Genome Sequencing in clinical decision making.  As technology improves Whole Genome Sequencing will likely become a useful clinical tool. 
+
+\subsection{Variants of Unknown Significance(VUS)}
+Whole Exome Sequencing produces tens of thousands of variants, and Whole Genome Sequencing exponentially more.  Another major hurdle is determining significance.  Each variant must be assessed for disease pathogenesis, distinguishing it from a previously unreported polymorphism. Variants can be filtered for pathogenic nature based on conservation across populations and location in a protein. It is often necessary to obtain parents samples and perform sequencing on patient-parent trios to determine novelty. When a novel variant is identified, ideally biologic mechanism is investigated through animal and cell culture models. Genetic variation can now be introduced into animal and cell culture models with greater ease and efficiency utilizing the CRISPR-Cas9 system. Variants are often damaging only in conjunction with other variants.  In some cases it is impossible to narrow down a single candidate when a disease with incomplete penetrance and variable expressivity affects a small family.  Efforts are ongoing to improve and streamline variant analysis for clinical utilization. 
+
+
+\section{	BEYOND DNA}
+
+Initial estimates placed the number of genes at >100,000
+\cite{vanderbilt}.  Looking at the massive amount of diversity and the
+billions of unique human beings on this earth, this was a appropriate
+estimate.  The current number is estimated somewhere around 20,000.
+The question is what accounts for the rest of phenotypic diversity and
+disease.  The picture of  development is complex with networks of genes turned on and off at different locations and timepoints.  Regulation of this process occurs to some extent outside of the coding region, through promoters and enhancers, epigenetic alterations, splicing variation, and noncoding RNA.   Altered noncoding sequence is increasingly implicated in disease.  The human genome project utilized whole exome sequencing.  The exome, though massive, consists of
+only 1\% of the total genomic DNA.  Many genetic diseases involve
+alteration of this coding exome but we are discovering that many
+diseases are due to problems outside of this coding region  Whole genome captures this noncoding region, although with far greater cost, burden of analysis, etc.   We have also come to realize that splicing and other
+post transactional regulation introduces much diversity.  We have the
+technology to sequence the entire RNA transcriptome and the proteome
+as well.  This produces a data set which dwarfs the genome and genomic
+DNA sequence information.  These technologies are currently only
+utilized in the research setting.  Despite our advanced technology, we
+have very little idea of how to interpret the data in a clinical
+setting.  Again the bioinformatics expertise lags behind.  There is
+amazing potential to advance knowledge and study human disease and a
+tremendous amount of big data analytics along the way.
+
+\subsection{RNA Sequencing}
+Splicing variation leads to multiple different proteins resulting from a single genes due to differential splicing during transcription.  Noncoding RNA also influences expression and modifies proteins after translation.  Technologies to examine the elements, include Whole Genome Sequencing to measure DNA outside of the exome, RNA sequencing to measure the splice variants and the transcriptome, and ChipSeq to measure DNA methylation.  These noncoding regulatory elements have important clinical implications, and need further exploration. 
+  
+\subsection{Eipgenetic Sequencing}
+Mutations in transcription factors are well established in pathogenesis and regulation is often through enhancers and promoters outside of the coding sequence. The term epigenetics refers to alterations outside of, or on top of, the genic material or DNA, that influence phenotype. Common epigenetic factors include DNA methylation, where methylation of DNA bases represses DNA expression, and also histone modification, where the degree to which DNA is wrapped around histones influences its expression.   Epigenetic factors are heritable, and also influenced by the environment.   
+
+\subsection{Proteome}
+Ultimately DNA codes for RNA and RNA is translated into proteins.  Proteins are the building blocks of all living things.  The preoteome is the term for the entire protein content of an organism.  New technologies allow us to measure the proteome.  The proteome is generally measured through tandem mass spectroscopy or fingerprinting.  Tandem mass spectroscopy breaks proteins into smaller portions and measures a signature and electrophoresis techniques involve separating proteins on a gel and measuring their fingerprint.  These techniques require sophisticated chemistry and data analysis techniques and produce massive datasets. 
+
+\subsection{Metabalome}
+The Metabolome involves the entire set of small molecules within an organism.  Analyzing the metabolome involves measuring every amnio acid, organic acid,vitamin and mineral in a cell, tissue or organism.  Measurement is usually by mass spectroscopy or nuclear magnetic resonance spectroscopy.    requires extensive data analysis.    
+
+\section{Other Genomics Tools}
+Sequencing technology is not the only factor revolutionizing personalized medicine.  There is a separate and equally exciting revolution in cell culture technology integral to personalized medicine.  All of these technologies rely on genomics measurements that produce massive datasets and rely on Big Data for analysis.   
+
+\subsection{Model Systems}
+    The optimal diagnosis and treatment of pediatric disease requires an understanding of
+physiology and pathophysiology. Throughout medical research history animal and cell culture
+models have been critical to this process. Mouse models, in particular, are extensively utilized
+because they are relatively convenient, and similar to humans at the chemical, molecular,
+cellular, and some anatomic levels. Furthermore, the use of transgenic mice allows for genetic
+manipulation to help elucidate molecular mechanisms. However, given that mice and humans
+diverged millions of years ago, there are critical physiological differences between the two
+species.
+Human diseases often lack a mice ortholog. The equivalent disease in mice may be fatal
+or benign, and we cannot model some high level human organ functions or late onset diseases.
+Even non-human primates, despite being our closest ancestors, have important phenotypic
+differences. For example, because of these differences, it is particularly difficult to develop
+animal models for neurodegenerative or neurodevelopmental disorders. Differences in
+mouse disease morphogenesis have led difficulty modeling human congenital heart disease. These limitations drive the need for human cell, tissue, and organ systems models. 
+Many human diseases involve terminally differentiated cell types, such as neurons and cardiomyocytes. These cell types are nearly impossible to sample, culture, and maintain. Evenafter generating primary cell lines from diseased tissues, ability to derive meaningful conclusions
+is often hampered by inconsistent replicability, dedifferentiation, and variability due to culture
+conditions. In this light, tissues derived from human induced pluripotent stem cells (h induced pluripotent stem cellss) has
+the potential to overcome many inherent limitations of animal and cell culture models and
+provide an unprecedented new paradigm to model human diseases.
+    
+
+\subsection{Pluripotent Stem Cells}
+During human embryogenesis, the ovum and spermatozoa fuse at fertilization, begin to
+divide, and differentiate into all cell lineages and tissue types in the human body. During
+development, these cells lose their pluripotency as they terminally differentiate into specific cell
+types. Embryonic stem cells (ESC) were first isolated from the blastocyst of developing mouse
+embryos in 1981, and from human embryos in 1998. These cells have the remarkable ability to retain pluripotency. The ESC discovery generated great excitement over their potential
+applicability in human disease modeling and regenerative therapies. However, limitations and
+controversies soon emerged.
+The isolation of ESCs from human embryos is ethically controversial. Disease models
+utilizing ESC are limited to diseases identified through preimplantation genetic diagnosis.
+Genome editing ECSs provides an opportunity to generate particular mutations of interest, but
+technique remains largely limited to monogenic diseases. In this light, recent breakthroughs in
+induced pluripotent stem cell ( induced pluripotent stem cells) technology circumvent many of these drawbacks.
+
+\subsection{Induced Pluripotent Stem Cells} 
+In 2006, Shinya Yamanaka identified four transcription factors, (OCT4, SOX2, KLF4, and c-MYC), that were capable for reprogramming somatic mouse cells into a pluripotent state. This extraordinary feat was recapitulated one year later in human cells. These induced
+pluripotent stem cells ( induced pluripotent stem cellss) behave like ESCs with capability to differentiate to most other cell
+types, and circumvent the ethical controversy and sample limitations. As opposed to human
+embryos,  induced pluripotent stem cellss can be generated from readily accessible tissue samples, such as peripheral
+blood mononucleated cells (PBMCs). Patient samples can be reprogrammed to  induced pluripotent stem cellss, serving
+as an autologous, continuously renewing supply of pluripotent cells.
+This has resulted in the dramatic expansion of the stem cell field, with development and
+improvements in reprogramming protocols, and directed cellular differentiation. Patient-specific
+ induced pluripotent stem cellss can be generated from wide variety of patient samples, including PBMCs from blood
+samples, to dermal fibroblsts from punch biopsies, and epithelial cells from urine samples.
+ induced pluripotent stem cellss can then be differentiated to most other cell types including cardiomyocytes, neurons, and
+hepatocytes. Because the lines are patient-specific, they are expected to recapitulate features of
+many disease phenotypes, whether due to simple monogenic mutations or complex polygenic
+disease susceptibilities. The patient-specific  induced pluripotent stem cellss hold potential for disease modeling,
+predicting drug response, assessing environmental triggers of diseases, and regenerative tissue engineering. Thus, they provide
+great potential for research and clinical applications in personalized medicine.
+
+\subsection{Gene Editing  induced pluripotent stem cellss}
+Mouse models allow genetic alteration using transgenesis and gene knock-outs.
+Measuring the resulting phenotype is extremely valuable in the study of genetics and
+development.  induced pluripotent stem cellss allow us to utilize these same genetic approaches using human cell lines.
+The past decade has seen tremendous advances in gene editing technology, including ZFNs (zinc
+finger nucleases), TALENs (transcription activator like effector nucleases), and CRISPR–Cas9
+(clustered regularly interspaced short palindromic repeat). The common mechanism of
+these genomic editing approaches is that they create double stranded breaks (DSBs) at desired
+locations in the genome, which then can be repaired by either nonhomologous end-joining
+(NHEJ) that can result in insertion/deletions (indels) or homology directed repair (HDR), which
+results in precise gene modifications. Of these, the CRISPR-Cas9 technology, which
+appropriates the prokaryote defense mechanism, has quickly become dominant due to ease with
+which it can be adapted to precisely edit virtually any region in the host genome. 
+Genome editing, coupled with the  induced pluripotent stem cells technology, allow us to study disease mechanism like never before. These technologies allow us to precisely correct mutations, and insert reporters under the endogenous regulatory control. They have also been used to demonstrate feasibility of genomic editing as a therapeutic modality. Recently, a group corrected a pathogenic mutation in preimplantation human embryos, demonstrating the feasibility of gene correction therapy. While still a long way from clinical applications, many disease phenotypes have been corrected in cell culture. These studies show the potential of these powerful technologies for disease modeling, and for therapeutic genome engineering.
+
+\subsection{Organogenesis}
+Sometimes a simple, two-dimensional  induced pluripotent stem cells-derived tissue culture model cannot fully
+recapitulate complex organ systems involving three dimensional (3D) architecture; such cases
+necessitate organoid modeling. In vitro organogenesis, the exciting new frontier in in vitro
+disease modeling, aims to organize  induced pluripotent stem cellss into 3D structures that better recapitulate in vivo
+physiology (Table 2). Previous attempts at organoid modeling utilized primary tissue cells, but
+primary cells are difficult to obtain and often fails to propagate in vitro. In principle,  induced pluripotent stem cellss are
+an ideal cell source to make tissue organoids. 
+The most comprehensive organoid model to date involves a fully vascularized and functional human liver (43). A 3D gastric organoid was created that progresses through developmental stages adopts similar architecture to the stomach (44). This organoid provided valuable insights into the gut development, as well as H. Pylori infection (45). Human  induced pluripotent stem cellss were grown also on rat intestinal matrix, to engineer a humanized intestinal graft for nutrient absorption in patients with short bowel syndrome (21). The established protocol for generating 3D cerebral organoids from  induced pluripotent stem cellss, replicates brain developmental stages. The organoid reproduces a variety of brain structures, including the cerebral cortex, ventral telencephalon, choroid plexus and retina (46). Manipulating specific developmental signaling pathways in ventral-anterior foregut spheroids recently generated an  induced pluripotent stem cells-based human lung model (47). Lastly, an  induced pluripotent stem cells-based human kidney organoid model was recently developed displaying glomerulus-like structures and renal tubules (48). 
+Future in vitro organogenesis effort must address the need for chemically defined synthetic extracellular matrices (ECMs), and incorporation of support cell types such as interspersed neurons, immune cells, and other regulatory cells. While the regenerative medicine field is still in infancy, transplantation of functional tissues derived from patient's own cells could profoundly improve the health of patients with end-organ failure.
+
+\section{BIOINFORMATICS} 
+Each of the steps in analyzing disease models relies heavily on bioinformatics and big data analytics.  Bioinformatics is the field combining computer science, biology, mathematics, medicine, engineering, etc. When Watson and Crick first identified the DNA structure, discover quickly led to the DNA coding mechanism and the interpretation of sequencing information.  The interpretation and analysis of sequencing data  was very amendable to computer science.  We began to sequence and interpret larger datasets including entire genes, entire chromosomes, the entire human exome, the entire human genome, and now the entire transcriptome and metabolome.  Further we need to compare these large datasets to one another.  Bioinformatics has gone far beyond sequence analysis to involve image analysis, mass spectroscopy, and counteless other integrations between biology and computer science.  there are also distinct field of Biomedical informatics, which refers more specifically to the integration of computer science and medicine. This often involves running multiple subsequent computer programs in established pipelines.  We will discuss some common aplications of bioinformatics.     
+
+\subsection{Sequence Assembly}  
+Sequencing technologies produce millions of fragments of DNA.  Sequence assembly is the process of identifying overlapping sequence, aligning the overlapping portion and and combining into a complete genome. Once the genome is assembled it is possible to compare a sample of DNA to a knwon sequenc ein a databaase.  One of the most popular tools involves the program Basic Local Alignment Search Tool(BLAST.)  Scientists can input any obtained sequence and check for matching to a known sequence in the database.        
+
+\subsection{Sequence Annotation}  
+Sequence annotation involves identifying the important regions in a sequence.  It includes identifying the regions that code for protiens, regulatory regions, and other biologically significance sequence. It is performed by popular programs such as   
+
+\subsection{Comparison of two states} 
+Another set of software tools involves the comparison of two datasets.  This includes the comparison of two disease states, two individuals, or any other two datasets that need comparison and analysis.   
+
+\subsection{Examples of a Popular Bioinformatics Pipelines}  
+The programs utilized for RNA Sequencing analysis include the Tuxedo Suite open source software package which includes Tophat, Bowtie, Cufflink, CuffCompare and CuffDiff.  The compressed BAM file type  is utilized by these programs.  Tophat aligns  sequencing reads to the human genome using the high output short read aligner Bowtie and then analyzes the results to identify splice junctions.  Cufflinks assembles transcripts, mapping segments of transcripts to genes and individual transcripts of a reference genome.  Cufflinks uses fragment counts as a measure of relative abundance, which are reported as Fragments Per Kilobase of exon per Million fragments mapped (FPKM).  Assembled transcripts from can be compared using Cuffcompare.  CuffDiff to compare transcript expression level, splicing and promoter use.  Cuffdiff uses the Cufflinks to compare transcript expression levels in two data sets.  It allows  the user to to find differentially expressed and regulated genes at the transcriptional and post-transcriptional level by reporting the log-fold-change in expression.  
+
+\section{COST OF HEALTHCARE}
+
+\subsection{The Current State}
+
+One of the most troubling issues facing the United States, and the
+world, is the increasing cost of healthcare.  The problems are
+different around the globe.  Much of the developing world lacks access
+to adequate healthcare, which is a serious problem. This paper focuses
+on a different problem, in the crisis facing the United
+States. Current healthcare spending is greater than 3 trillion dollars
+\cite{centers2014national}.  This makes up 17 percent of GDP.  This number grows every year
+and is unsustainable.  This number affects citizens deeply, and
+currently healthcare costs are responsible for 50\% of bankruptcy
+claims in the United States \cite{fox6}. All of this extra spending does not
+equal better health.  In most measures of health, from infant
+mortality to life expectancy, the United States find itself far from
+the top.  There are major issues at play ranging from a massive
+bureaucracy, to the poor health and obesity of participants.
+
+\subsection{The Future}
+
+It is projected that the average family will spend over 25\% of income
+on to healthcare \cite{fox6}.  The problem is not projected to improve.  As
+the {\em baby-boomers} age, the population over 60 with high cost chronic
+healthcare problems, increases exponentially.  In Medical School, we
+were taught about this {\em silver tsunami} approaching the US healthcare
+system (prompting me to go into Pediatrics.)  Many individuals,
+including myself, look to Big Data to uncover these problems and help
+fix them. Before it is too late.  There are technology solutions
+including the electronic health record, medical reference technology,
+genomic medicine, telemedicine, wearable health technology, and
+personalized medicine.
+
+
+\section{ELECTRONIC HEALTH RECORD}
+\subsection{Electronic Medical Record and Genomics (eMerge)}
+There is currently a massive effort undertaken by multiple companies and branches of goverment to combine genomics data dn the elctronic health record.  According the the website:  "eMERGE is a national network organized and funded by the National Human Genome Research Institute (NHGRI) that combines DNA biorepositories with electronic medical record (EMR) systems for large scale, high-throughput genetic research in support of implementing genomic medicine."  ths method of combining genomics data and electronic health information holds great potential.  
+
+\subsection{Adoption of and EMR}
+
+Throughout history, medical records were taken on paper, but after
+2000 the slow transition to electronic records began
+\cite{kokkonen2013use}. The handwritten records were kept in large
+file cabinets, and when records needed to be shared between physicians
+or institutions (across the country or across the street), the paper
+records were faxed over a telephone line.  This technology is decades
+old.  As technology raced forward with supercomputers and the
+worldwide web, medicine continued to use these antiquated forms of
+communication.  Finally, government mandating forced healthcare
+systems into the modern era and electronic records went online.
+Currently over 84\% of health records are online \cite{fox6}.
+
+\subsection{	The Current State}
+
+A majority of healthcare systems around the world are under a
+government regulated socialized medical system which comes with a
+universal health record. The healthcare system in the United states is
+privatized, therefore the transition to EHR came with individual
+health entities purchasing a multitude of different EHRs.  The problem
+comes in that a patient presenting to two different healthcare
+facilities, even if across the street or within the same building,
+will have two different medical charts that do no communicate with one
+another.  The other problem comes with accessing this information.
+The two largest companies Epic and Cerner have a commercial interest,
+with a primary goal to increase revenue to the shareholder.  It is
+exceedingly difficult for the nonprofit entities including academic
+centers and hospitals to access the patient information within the
+EHR. There is tremendous potential within the EHR.  Beyond data
+collection, storage, data retrieval, and analysis, we should move
+towards real time guidance and guidelines for medical decision making
+to improve health.
+
+\subsection{Phenome-wide association studies ]}
+ The first established linkage of the the electronic health record and genomics datasets took place at Vanderbilt University.  Vanderbilt Medical Center began to collecting biospecimens from patients (using an ethically controversial opt-out consent process.)  They performed Whole Exome Sequencing on the specimens.  They then linked the specimens to the electronic health record and compiled the data in a databse called BioVUE. Phenome-wide association studies is the name of a method used to measure the number of phenotypes or diseases reported in the electronic health record, in relation to single nucleotiide changes in the human genome.  Researchers can assess whether each variant is related to any disease state.  The database started in 2012 and is growing rapidly.  As the dataset grows, so will its power to predict disease based on single nucleotide variants.  An early verion of the catalog is currently available online to all individuals.     
+  
+\section{KNOWLEDGE}
+
+\subsection{Online Genomic Resources}
+Most of the Genomics data is available to the public online. The National Center for Biotechnology Information (NCBI)  provide a massive cache of information.  Most people know about NCBI's PubMed database of over 27 million citations from biomedical literature.  NCBI also hold  a massive nucleotide database, with nucleotide information compiled from almost every genomic study performed to date.  Their genome site holds the sequences, maps, chromosomes, assemblies, and annotations of every version of the human genome, along with mouse, drosophila, rat, EColi, Yeast, and countless other model organisms.   Not only does NCBI provide a genome browser, but numerous other organizations provide this imrmation, including Enselmble, UCSC, etc.  Researchers spend hours pouring over the genome browser of their choosing,  to design experiments, interpret results, and hypothesize.    
+
+\subsection{Online Medical Resources}
+Only 10-20 years ago, Hospital libraries and medical school libraries
+were once filled with books and journal articles.  If a healthcare
+practitioner wanted information relevant to clinical care, they went
+to libraries to pour through the resources with exhaustive efforts.
+Today, those libraries are mostly void of books.  Almost every
+individual in Whole Exome Sequencingtern medicine has access to a computer, and usually
+to a handheld device, capable of accessing far more information than
+could ever be stored in a library.  There are massive information
+sources, such as PubMed, and Up
+To Date, a point of care medical reference similar to Wikipedia, commonly used on a handheld
+deceive, with evidence based clinical guidelines contributed by over
+5,000 physicians \cite{wiki-uptodate}. The massive amount of data now
+accessible to most healthcare providers and scientists is changing
+healthcare rapidly.  Still, there is much room for improvement as care
+is commonly delivered based on anecdotal evidence, and cost and
+quality should continue to improve.  Combining this online genomic information, and online medical information will provide a valuable tool to improve health.  
+
+\section{WEARABLE TECHNOLOGY, NUTRITION AND WELLNESS APPS}
+
+Massive data sets exist, collected by insurance companies, in
+electronic health records, by pharmaceutical companies and genomics data sets collected by research
+institutions.  There is another very exciting source of big data on
+the horizon, in personal wearable technologies, and also fitness,
+wellness and nutrition apps \cite{fox6}.  Individuals wearing FitBits, with
+fitness apps on their mobile devices, wearing smartwatches, etc. can
+track health and wellness measures in ways that once required
+inpatient hospital monitoring and sophisticated research lab settings.
+They track sleep and activity throughout the day and night.  In
+addition, there are countless apps which track nutrition and health.
+People log meals and nutrition to keep accountable.  Often these apps
+work with time tested and well researched diets including weight
+watchers, etc.  This technology has already changed the way many
+individuals look at health and wellness.  This exciting new dataset
+has great potential to advance human health and improve disease that
+may be the root cause of our healthcare epidemic.  Combining the massive datasets produced through wearable technology, with genomics data, holds immense potential.  Measuring exercise response and sleep endurance, to nutrition and weight gain, in light of genetic background, provide incredible insight into health and disease.  
+
+\subsection{Visual Technology}
+
+Currently procedural technology is one of the greatest expenses to the health care system.  Genomics analysis holds great potential to help reduce these costs. Telemedicine involves a virtual visit between a physician and patient
+\cite{hernandez2016pediatric}.  There are obvious benefits, especially when a patient population
+is spread across a wide geographic space either due to a high level of
+physician specialization, or a rural patient population. Highly
+specialized, but critical subspecialists are often in great shortage.
+This places a great burden on the available providers, with often
+unsustainable schedules.  Video technology allows doctors, nurses and
+practitioners to visualize patients, perform a limited physical, and
+to communicate with individuals at a distance.  There is great
+potential to improve cost and reduce burden. There are limitations.
+Many physician specialists are values for their technical, hands on
+skills.  Telemedicine is not much of a help, the technical procedures,
+such as inserting airways into the trachea of small babies, and insert
+central arterial lines into major vessels to deliver lifesaving
+medications, require hands on skills.  The same goes for surgeons and
+other highly skilled technical professions.  Interventional techniques
+and robotics are increasingly being used to perform procedures, but
+while these operations are performed, a surgeon needs to very close,
+in case unforeseen accidents problems necessitate a conventional
+correction. Procedural specialties are the greatest expense to our
+healthcare system and their procedural skills are a long way from
+being performed through telemedicine or robotics.  Genomics data will help to triage individuals, indicating response to particular treatment or technology.
+ 
+\section{COMMERCIAL GENOMICS}
+
+The company 23 and me offers genetic testing directly to consumers.  For around 100\$ an individual can obtain "Ancestry Services" or "Health and Ancestry Services."  Given the massive expense and resources required to analyze genomic data, the service likely provides little to no valuable information.  However the market for these novelty services has exploded in recent years, as consumers grasp to understand their own genetic information.  Much of the advertising, distribution, and sharing of this genetic information is done through social media.  There is a multitude of health information shared
+over social media networks.  Blogs, columns, and posts providing
+information about nutrition and wellness, news stories, and
+information sharing.  The story reporting google’s flu prediction
+trends ahead of the CDC, based on search history, spread virally over
+facebook \cite{ginsberg2009detecting}.   The field will continue to expand.  Soon, as technology improves, consumers will have access to their own genomics data sets.  how they access in share this information is unknown.    
+
+\section{PERSONALIZED MEDICINE}
+
+Wikipedia summarized personalized medicine as: ``a medical
+procedure that separates patients into different groups—with medical
+decisions, practices, interventions and/or products being tailored to
+the individual patient based on their predicted response or risk of
+disease.''  \cite{wiki-personalized} In a way the culmination of big
+data and health is with personalized medicine.  In a hopefully not so
+distant future the electronic health record, pharmaceutical data and
+genomic data will provide a more tailored, affordable, and
+high-quality approach to healthcare. 
+The revolutions in cellular reprogramming, genome sequencing and genome editing have opened up tremendous opportunities for the study of human disease.  Based on the dizzying rates of advances in the  revolutionary technologies, it is not unreasonable to believe that patient-derived and genome-edited  induced pluripotent stem cells models may become a dominant model for the study of  disease and the search for new therapies.
+
+Whole Exome Sequencing and Whole Genome Sequencing  can be utilized to measure all genomic changes, and newer technologies allow us to perform personalized omics measurementsin affected tissue including metabolomics, transcriptomics, proteomics, etc.  For example, we can take a patient blood sample, derive cardiomyocytes, neurons, smooth muscle, etc, and perform analysis to measure tissue metabolics, RNA transcriptional differences, and pharmacologic response of the tissue. At some point in the future we may moves toward autologous transplantation with genetically edited organs derived from the patients own tissue.   
+Bioinformatics analysis and interpretive steps lag behind.  Clinically actionable results would be needed in hours to days, versus the months this type of analysis usually require.  This rapid analysis  is a rate limiting step, but is improving exponentially. 
+
+\section{CONCLUSION}
+As the population continues to grow, we will continue to utilize and increasing amount of resources.  Optimal utilization of these resources is the only way to ensure survival and proper living standard for the human population.  Big data plays a major role in efficient utilization of resources including wildlife management, land management and agriculture.  Big Data is plays an increasing role in sustaining and improving our world.  
+
+\begin{acks}
+
+Thank you to Dr. Geoffrey Fox, Gregor von Laszewski, and all of the
+course instructors for an excellent introduction to Big Data and Data
+Science.
+
+\end{acks}
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{report} 
+
+\end{document}
+
