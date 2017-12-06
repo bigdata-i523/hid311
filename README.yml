@@ -28,6 +28,19 @@ paper2:
         - 311
     status: in progress
     title: TBD
-    type: project
+    type: paper
     url: https://github.com/bigdata-i523/hid311/project/report.pdf
     chapter: TBD
+
+project:
+    abstract: >
+    The entirety of the human genome was sequenced in 2003, ushering in a new era of molecular biology, genetics and medicine.  Since that time, technologies have advanced significantly, and next generation sequencing allows increasingly rapid and affordable sequencing of the enitre human genome.  Beyond the human genome, we can also sequence the entire RNA transcriptome, proteome, and metabalome.  We can compare these entities in health and disease, and across populations.  These new technologies produce massive datasets.  Big Data applications and analytics allow interpretation and utilization of these data sets.  However, analyzing and interpreting these datasets lags behind sequencing technology, as the rate limiting step. Still these technologies hold great potential for advancing medicine and human health.  Combining this omics data with the electronic health record, wearable technology, pharmaceuticals and procedures, moves us towards personalized, precision, medicine.     
+    author:
+        - Matthew Durbin
+    chapter: Health
+    hid:
+        - 311
+    status: 100%
+    title: Big Data in Genomics and Medicine
+    type: paper
+    url: https://github.com/bigdata-i523/hid311/project/report.tex
