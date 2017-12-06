@@ -28,7 +28,7 @@ paper2:
         - 311
     status: in progress
     title: TBD
-    type: project
+    type: paper
     url: https://github.com/bigdata-i523/hid311/project/report.pdf
     chapter: TBD
 
@@ -43,4 +43,4 @@ project:
     status: 100%
     title: Big Data in Genomics and Medicine
     type: paper
-    url: https://github.com/bigdata-i523/hid311/paper1/report.pdf
+    url: https://github.com/bigdata-i523/hid311/project/report.tex
