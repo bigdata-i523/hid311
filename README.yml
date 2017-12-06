@@ -5,10 +5,11 @@ owner:
     url: https://github.com/bigdata-i523/hid311
 paper1:
     abstract: >
-        The United States healthcare system is in crisis.  The cost is far
-        higher than all other nations, and is exponentially increasing.  In addition,
-        for all of this spendig, measured health outcomes are far lower than most
-        other nations. Big Data driven technology solutions may help solve the healthcare
+        The United States healthcare system is in crisis.  The cost is
+        far higher than all other nations, and is exponentially
+        increasing.  In addition, for all of this spendig, measured
+        health outcomes are far lower than most other nations. Big
+        Data driven technology solutions may help solve the healthcare
         crisis.
     author:
         - Matthew Durbin
@@ -18,7 +19,7 @@ paper1:
     status: 100%
     title: Big Data and Healthcare
     type: word
-    url: https://github.com/bigdata-i523/hid311/paper1/report.pdf
+    url: https://github.com/bigdata-i523/hid311/paper1/
 paper2:
     review: Nov 6 2017
     abstract: This paper showcases tis and that and the other
@@ -29,12 +30,27 @@ paper2:
     status: in progress
     title: TBD
     type: paper
-    url: https://github.com/bigdata-i523/hid311/project/report.pdf
+    url: https://github.com/bigdata-i523/hid311/project/
     chapter: TBD
-
 project:
     abstract: >
-    The entirety of the human genome was sequenced in 2003, ushering in a new era of molecular biology, genetics and medicine.  Since that time, technologies have advanced significantly, and next generation sequencing allows increasingly rapid and affordable sequencing of the enitre human genome.  Beyond the human genome, we can also sequence the entire RNA transcriptome, proteome, and metabalome.  We can compare these entities in health and disease, and across populations.  These new technologies produce massive datasets.  Big Data applications and analytics allow interpretation and utilization of these data sets.  However, analyzing and interpreting these datasets lags behind sequencing technology, as the rate limiting step. Still these technologies hold great potential for advancing medicine and human health.  Combining this omics data with the electronic health record, wearable technology, pharmaceuticals and procedures, moves us towards personalized, precision, medicine.     
+        The entirety of the human genome was sequenced in 2003,
+        ushering in a new era of molecular biology, genetics and
+        medicine.  Since that time, technologies have advanced
+        significantly, and next generation sequencing allows
+        increasingly rapid and affordable sequencing of the enitre
+        human genome.  Beyond the human genome, we can also sequence
+        the entire RNA transcriptome, proteome, and metabalome.  We
+        can compare these entities in health and disease, and across
+        populations.  These new technologies produce massive datasets.
+        Big Data applications and analytics allow interpretation and
+        utilization of these data sets.  However, analyzing and
+        interpreting these datasets lags behind sequencing technology,
+        as the rate limiting step. Still these technologies hold great
+        potential for advancing medicine and human health.  Combining
+        this omics data with the electronic health record, wearable
+        technology, pharmaceuticals and procedures, moves us towards
+        personalized, precision, medicine.
     author:
         - Matthew Durbin
     chapter: Health
@@ -43,4 +59,4 @@ project:
     status: 100%
     title: Big Data in Genomics and Medicine
     type: paper
-    url: https://github.com/bigdata-i523/hid311/project/report.tex
+    url: https://github.com/bigdata-i523/hid311/project/
