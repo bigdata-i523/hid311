@@ -41,6 +41,6 @@ project:
     hid:
         - 311
     status: 100%
-    title: Big Data and Healthcare
-    type: word
+    title: Big Data in Genomics and Medicine
+    type: paper
     url: https://github.com/bigdata-i523/hid311/paper1/report.pdf
