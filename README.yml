@@ -23,10 +23,11 @@ paper2:
     review: Nov 6 2017
     abstract: This paper showcases tis and that and the other
     author:
-        - Gregor von Laszewski
+        - Matthew Durbin    
     hid:
-        - 0
+        - 311
     status: in progress
-    title: Benchmarking a BigData Docker deployment
-    type: latex
+    title: TBD
+    type: project
     url: https://github.com/bigdata-i523/hid311/project/report.pdf
+    chapter: TBD
