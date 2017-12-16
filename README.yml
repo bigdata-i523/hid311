@@ -18,7 +18,6 @@ paper1:
         - 311
     status: 100%
     title: Big Data and Healthcare
-    type: word
     url: https://github.com/bigdata-i523/hid311/paper1/
 paper2:
     exclude: True
@@ -30,7 +29,6 @@ paper2:
         - 311
     status: in progress
     title: TBD
-    type: paper
     url: https://github.com/bigdata-i523/hid311/project/
     chapter: TBD
 project:
